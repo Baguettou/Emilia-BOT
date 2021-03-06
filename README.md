@@ -41,12 +41,12 @@ Escribe en GitCmd:
 * ```ownerBot```: Tu número de WhatsApp.
 * ```prefix```: El prefijo para usar el bot.
 * ```uaOverride```: tu codigo de WhatsApp (algo así como el dispositivo virtual creado).
-* ```itech```: I-Tech API key. La puedes obtener aquí despues de crear una cuenta. Después edita tu ip estática aquí.
-* ```nao```: SauceNAO API key. La puedes obtener aquí despues de crear una cuenta.
-* ```vhtear```: VHTear API key. La puedes obtener aquí despues de ***comprarla***.
+* ```itech```: I-Tech API key. La puedes obtener [aquí](https://api.i-tech.id/) despues de crear una cuenta. Después edita tu ip estática [aquí.](https://api.i-tech.id/settings/profile)
+* ```nao```: SauceNAO API key. La puedes obtener [aquí](https://saucenao.com/user.php) despues de crear una cuenta.
+* ```vhtear```: VHTear API key. La puedes obtener [aquí](https://api.vhtear.com/) despues de ***comprarla***.
 * ```melodic```: MelodicXT API key. Usa la key de administrador.
 * ```tobz```: Tobz API key. Puedes usar la BotWeA key.
-* ```lol```: LolHuman API key. La puedes obtener aquí despues de crear una cuenta.
+* ```lol```: LolHuman API key. La puedes obtener [aquí](https://lolhuman.herokuapp.com/) despues de crear una cuenta.
 
 ## 3. Instala FFmpeg
 * Descarga una de las versiones disponibles  para tu sistema operativo usando [este link](https://www.gyan.dev/ffmpeg/builds/).
