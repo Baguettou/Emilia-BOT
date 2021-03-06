@@ -1,6 +1,13 @@
-# **__Emilia-BOT__**
-### Este es un proyecto de código abierto, úsalo como quieras bajo tu responsabilidad y recuerda leer su [licencia](https://github.com/Baguettou/Emilia-BOT/blob/main/LICENCIA%20-%20LICENSE).
+<div align="center">
+    
+# Emilia-BOT
 
+<p align="center"> 
+<H3>Este es un proyecto de código abierto, úsalo como quieras bajo tu responsabilidad y recuerda leer su  <a href="https://github.com/Baguettou/Emilia-BOT/blob/main/LICENCIA%20-%20LICENSE">licencia.</a></H3>
+</p>
+</div>
+
+Texto de prueba (H3)</H3>
 # ¿Qué necesito?:
 * [Node.js](https://nodejs.org/es/).
 * [Git](https://git-scm.com/downloads).
@@ -32,20 +39,68 @@ Escribe en GitCmd:
 }
 ```
 
-```ownerBot```: Tu número de WhatsApp.
+* ```ownerBot```: Tu número de WhatsApp.
+* ```prefix```: El prefijo para usar el bot.
+* ```uaOverride```: tu codigo de WhatsApp (algo así como el dispositivo virtual creado).
+* ```itech```: I-Tech API key. La puedes obtener aquí despues de crear una cuenta. Después edita tu ip estática aquí.
+* ```nao```: SauceNAO API key. La puedes obtener aquí despues de crear una cuenta.
+* ```vhtear```: VHTear API key. La puedes obtener aquí despues de ***comprarla***.
+* ```melodic```: MelodicXT API key. Usa la key de administrador.
+* ```tobz```: Tobz API key. Puedes usar la BotWeA key.
+* ```lol```: LolHuman API key. La puedes obtener aquí despues de crear una cuenta.
 
-```prefix```: El prefijo para usar el bot.
+## 3. Instala FFmpeg
+* Descarga una de las versiones disponibles  para tu sistema operativo usando [este link](https://www.gyan.dev/ffmpeg/builds/).
+* Extrae el archivi en la carpeta `C:\`.
+* Cambia el nombre a `ffmpeg`.
+* Abre el símbolo del sistema como administrador.
+* Usa este comando:
+```cmd
+> setx /m PATH "C:\ffmpeg\bin;%PATH%"
+```
+Te va a dar una respuesta como: `SUCCESS: specified value was saved`.
+* Ahora ya instalado confirma que esté funcionando usando este comando que te mostrará la versión instalada:
+```cmd
+> ffmpeg -version
+```
 
-```uaOverride```: tu codigo de WhatsApp (algo así como el dispositivo virtual creado).
+## 4. Instala libwebp
+La instalación es la misma que la de FFmpeg, pero por si acaso.
+* Descarga una de las versiones disponibles para tu sistema operativo usando [este link](https://developers.google.com/speed/webp/download).
+* Extrae el archivi en la carpeta `C:\`.
+* Cambia el nombre a `libwebp`.
+* Abre el símbolo del sistema como administrador.
+* Usa este comando:
+```cmd
+> setx /m PATH "C:\libwebp\bin;%PATH%"
+```
+Te va a dar una respuesta como: `SUCCESS: specified value was saved`.
+* Ahora ya instalado confirma que esté funcionando usando este comando que te mostrará la versión instalada:
+```cmd
+> webpmux -version
+```
 
-```itech```: I-Tech API key. La puedes obtener aquí despues de crear una cuenta. Después edita tu ip estática aquí.
+## 5. Instala las dependencias (muy importante).
+```cmd
+> npm install
+```
 
-```nao```: SauceNAO API key. La puedes obtener aquí despues de crear una cuenta.
+## 6. Encender el bot.
+Node común:
+```cmd
+> npm start
+```
 
-```vhtear```: VHTear API key. La puedes obtener aquí despues de ***comprarla***.
+PM2:
+```cmd
+> pm2 start index.js
+> pm2 monit
+```
 
-```melodic```: MelodicXT API key. Usa la key de administrador.
+PM2 con cron job (para que se reinicie cada 5 horas):
+```cmd
+> pm2 start index.js --cron "* */5 * * *"
+> pm2 monit
+```
 
-```tobz```: Tobz API key. Puedes usar la BotWeA key.
-
-```lol```: LolHuman API key. La puedes obtener aquí despues de crear una cuenta.
+## 6. Por último escanea el código QR con tu teléfono.
