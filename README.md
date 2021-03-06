@@ -7,7 +7,6 @@
 </p>
 </div>
 
-Texto de prueba (H3)</H3>
 # ¿Qué necesito?:
 * [Node.js](https://nodejs.org/es/).
 * [Git](https://git-scm.com/downloads).
