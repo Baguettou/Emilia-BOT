@@ -4,6 +4,7 @@
 
 <p align="center"> 
 <H3>Este es un proyecto de código abierto, úsalo como quieras bajo tu responsabilidad y recuerda leer su  <a href="https://github.com/Baguettou/Emilia-BOT/blob/main/LICENCIA%20-%20LICENSE">licencia.</a></H3>
+<H4>Creditos a <a href="https://github.com/SlavyanDesu/">Slavyan.</a> :D</H3>
 </p>
 </div>
 
