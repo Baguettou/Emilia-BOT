@@ -3,7 +3,7 @@
 # Emilia-BOT
 
 <p align="center"> 
-<H2>HTML Image</H2><img src="https://user-images.githubusercontent.com/68337546/111088722-8a2da300-84f6-11eb-8229-f03350f4f860.png" alt="MÖTH" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/68337546/111088722-8a2da300-84f6-11eb-8229-f03350f4f860.png" alt="MÖTH" width="200" height="200">
 <H3>Este es un proyecto de código abierto, úsalo como quieras bajo tu responsabilidad y recuerda leer su  <a href="https://github.com/Baguettou/Emilia-BOT/blob/main/LICENCIA%20-%20LICENSE">licencia.</a></H3>
 <H4>Creditos a <a href="https://github.com/SlavyanDesu/">Slavyan.</a> :D</H3>
 </p>
